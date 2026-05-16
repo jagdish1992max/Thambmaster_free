@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ThumbMaster - Free AI Thumbnails</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      color: white;
+      min-height: 100vh;
+    }
+    .nav {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 24px 48px; border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    .nav h1 { font-size: 24px; color: #a855f7; }
+    .nav-btn {
+      background: #a855f7; color: white; border: none;
+      padding: 10px 28px; border-radius: 50px; font-size: 15px;
+      cursor: pointer; transition: 0.3s;
+    }
+    .nav-btn:hover { background: #9333ea; transform: scale(1.05); }
+    .hero {
+      text-align: center; padding: 100px 20px 60px;
+    }
+    .hero h1 {
+      font-size: 56px; line-height: 1.2; margin-bottom: 20px;
+    }
+    .hero h1 span { background: linear-gradient(135deg, #a855f7, #ec4899); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .hero p { font-size: 20px; color: #a3a3a3; margin-bottom: 30px; }
+    .hero-btn {
+      background: linear-gradient(135deg, #a855f7, #ec4899); color: white;
+      border: none; padding: 16px 48px; border-radius: 50px;
+      font-size: 18px; cursor: pointer; transition: 0.3s;
+    }
+    .hero-btn:hover { transform: scale(1.05); box-shadow: 0 0 30px rgba(168,85,247,0.4); }
+    .features {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px; max-width: 1000px; margin: 80px auto; padding: 0 24px;
+    }
+    .card {
+      background: rgba(255,255,255,0.05); backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,0.1); padding: 32px;
+      border-radius: 16px; text-align: center; transition: 0.3s;
+    }
+    .card:hover { background: rgba(255,255,255,0.1); transform: translateY(-5px); }
+    .card .icon { font-size: 48px; margin-bottom: 16px; }
+    .card h3 { font-size: 20px; margin-bottom: 10px; }
+    .card p { color: #a3a3a3; line-height: 1.6; }
+    .compare { max-width: 900px; margin: 80px auto; padding: 0 24px; }
+    .compare h2 { text-align: center; font-size: 32px; margin-bottom: 32px; }
+    table { width: 100%; border-collapse: collapse; background: rgba(255,255,255,0.05); border-radius: 16px; overflow: hidden; }
+    th { background: #a855f7; padding: 16px; font-size: 16px; }
+    td { padding: 14px 16px; text-align: center; border-bottom: 1px solid rgba(255,255,255,0.1); }
+    .green { color: #22d65e; font-weight: bold; }
+    .red { color: #ef4444; }
+    .footer { text-align: center; padding: 48px; color: #666; font-size: 14px; }
+    @media (max-width: 600px) {
+      .nav { padding: 16px 20px; flex-direction: column; gap: 12px; }
+      .hero h1 { font-size: 32px; }
+      .hero p { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <h1>🚀 ThumbMaster</h1>
+    <button class="nav-btn" onclick="alert('Coming Soon!')">Free Start Karein</button>
+  </div>
+  
+  <div class="hero">
+    <h1>Viral Thumbnails <span>100% Free</span><br/>AI Se Banayein</h1>
+    <p>Thumbmagic se better. Unlimited AI thumbnails. Zero cost. No credit card.</p>
+    <button class="hero-btn" onclick="alert('AI Engine coming soon!')">🚀 Free Try Karein</button>
+  </div>
+  
+  <div class="features">
+    <div class="card">
+      <div class="icon">♾️</div>
+      <h3>Unlimited Generation</h3>
+      <p>Thumbmagic sirf 3 free deta hai. Hum unlimited dete hain. Koi limit nahi.</p>
+    </div>
+    <div class="card">
+      <div class="icon">🎯</div>
+      <h3>Multi-Platform</h3>
+      <p>YouTube + Instagram + TikTok + Facebook + Shorts — sab ke liye thumbnails.</p>
+    </div>
+    <div class="card">
+      <div class="icon">📊</div>
+      <h3>A/B Testing</h3>
+      <p>Do thumbnails compare karo. AI batayega kaunsa zyada clicks lega.</p>
+    </div>
+  </div>
+  
+  <div class="compare">
+    <h2>Thumbmagic vs ThumbMaster</h2>
+    <table>
+      <tr><th>Feature</th><th>🟣 Thumbmagic</th><th>🚀 ThumbMaster</th></tr>
+      <tr><td>Price</td><td class="red">$19/month</td><td class="green">₹0 (FREE)</td></tr>
+      <tr><td>Free Thumbnails</td><td class="red">Sirf 3</td><td class="green">Unlimited</td></tr>
+      <tr><td>Platforms</td><td class="red">Sirf YouTube</td><td class="green">5 Platforms</td></tr>
+      <tr><td>A/B Testing</td><td class="red">❌ Nahi</td><td class="green">✅ Free</td></tr>
+      <tr><td>Batch Generate</td><td class="red">❌ Nahi</td><td class="green">✅ Free</td></tr>
+    </table>
+  </div>
+  
+  <div class="footer">
+    Made with ❤️ for creators &nbsp;|&nbsp; 100% Free &nbsp;|&nbsp; No credit card needed
+  </div>
+</body>
+  </html>
